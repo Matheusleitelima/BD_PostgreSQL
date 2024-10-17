@@ -1,0 +1,24 @@
+Criar data base:
+CREATE DATABASE bd;
+
+Excluir data base:
+DROP DATABASE bd;
+
+
+*** Tipos de Dados:
+
+integer = negativo e positivo
+real = float
+serial = auto incrmente
+numeric = definie casa decimais
+
+varchar = Strings 
+char = determina e salva o valor caracter
+text = textos grandes
+
+boolean =  true e false
+
+date = data
+time = hora
+timestamp = data e hora
+
