@@ -1,0 +1,20 @@
+SELECT * FROM cliente WHERE id = 2
+SELECT * FROM cliente WHERE nome = 'Pedro Souza'
+#Seleciona somente id = 2, nesse caso o where é como um if, estebelece uma condição.
+
+
+UPDATE cliente set nome = 'Ryan' WHERE nome = 'Ana Pereira';
+#Atualiza um campo especifico da tabela 
+
+UPDATE cliente set 
+			nome = 'Carla',
+			cpf = '41132584060',
+			obs = 'Cliente alta renda',
+			salario = 12000.00,
+			ativo = TRUE,
+			datanasc = '19-12-1997',
+			horario_atendimento = '20:00:00',
+			ultimacompra = '2024-06-01 20:20:00'
+
+WHERE id = 6 ;
+				
