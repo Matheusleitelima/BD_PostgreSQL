@@ -1,0 +1,37 @@
+SELECT * FROM tabela;
+#Vai mostrar a tabela
+
+SELECT * FROM cliente
+
+
+
+
+
+INSERT INTO tabela (campos, campos) VALUES (valores);
+campos (id, nome)
+valores(c7, carlos)
+
+exemplo :
+
+INSERT INTO cliente(
+			id,
+			nome,
+			cpf,
+			obs,
+			salario,
+			ativo,
+			datanasc,
+			horario_atendimento,
+			ultimacompra
+) VALUES(
+			6,
+			'Carl',
+			'47589236041',
+			'cliente antigo',
+			 1200.00,
+			 TRUE,
+			'19-06-1980',
+			'09:00:00',
+			'2024-02-02 16:17:20'
+			  
+			  );
