@@ -1,0 +1,8 @@
+DELETE FROM cliente;
+Esse comando vai deletar a tabela cliente toda.
+
+DELETE FROM cliente WHERE id = 5;
+Vai deletar um item da tabela que começa com ID 5
+
+
+
