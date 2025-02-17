@@ -1,0 +1,36 @@
+
+SELECT nome, ativo FROM cliente;
+#Seleciona apenas o nome e se o cliente estar ativo na tabela
+
+SELECT nome AS "Nome do cliente", ativo FROM cliente;
+#Aqui vai mudar o nome do dado na tabela
+
+
+SELECT nome AS "Nome do cliente", ativo AS clientes_ativos FROM  cliente;
+#O ativo não precisou de aspas por que não tem espaço
+
+
+SELECT * FROM cliente WHERE nome = 'Ryan';
+#Aqui vai selecionar somente o cliente que se chama ryan
+
+SELECT * FROM cliente WHERE nome != 'Ryan';
+#Aqui vai chamar todos os clientes menos o ryan.
+ 
+USO DO OPERADOR LIKE ---------------------------------------
+
+SELECT * FROM cliente WHERE nome LIKE  'Ryan';
+#Selecionar o Ryan
+
+SELECT * FROM cliente WHERE nome LIKE  'R%';
+#Selelciona apenas os que começam com r
+
+SELECT * FROM cliente WHERE nome LIKE  '%n';
+#Seleciona apenas os que tem n no final
+
+SELECT * FROM cliente WHERE nome NOT LIKE  'R%';
+#Aqui vai chamar apenas os dados que não começam com R
+
+SELECT * FROM cliente WHERE nome NOT LIKE  '%n';
+#Aqui vai chamar apenas os dados que não finaliza com n
+
+
