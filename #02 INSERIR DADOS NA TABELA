@@ -35,3 +35,15 @@ INSERT INTO cliente(
 			'2024-02-02 16:17:20'
 			  
 			  );
+
+
+
+Para Inserir Varios dados ao mesmo tempo
+
+INSERT INTO cliente VALUES
+(7, 'João Silva', '12345678900', 'Cliente VIP', 4500.00, TRUE, '1985-06-12', '08:30:00','2024-02-02 15:45:30'),
+(8, 'Maria Souza', '98765432110', 'Precisa confirmar cadastro',3200.50,FALSE, '1990-03-22','09:00:00','2024-01-29 11:20:10');
+
+
+
+
